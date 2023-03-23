@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E1012"
+    android:backgroundTint="#12CED5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/testEye5"
+        android:layout_width="419dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="1dp"
+        android:background="#BCCD15"
+        android:fontFamily="sans-serif-black"
+        android:paddingStart="25dp"
+        android:paddingTop="20dp"
+        android:text="@string/player_having_5_seconds_to_play_on_each_level_choose_the_highlighted_block_top_25_player_s_scores_will_be_record_in_score_table"
+        android:textAllCaps="true"
+        android:textColor="#263238"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testEye3"
+        tools:ignore="MissingConstraints,RtlSymmetry,TextSizeCheck,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/testEye3"
+        android:layout_width="416dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="106dp"
+        android:background="#03A9F4"
+        android:fontFamily="sans-serif-black"
+        android:paddingStart="120dp"
+        android:paddingTop="20dp"
+        android:text="@string/how_to_play"
+        android:textAllCaps="true"
+        android:textColor="#263238"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScoreTable"
+        tools:ignore="MissingConstraints,RtlSymmetry,TextSizeCheck,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/TestEye"
+        android:layout_width="420dp"
+        android:layout_height="109dp"
+        android:background="#03A9F4"
+        android:fontFamily="sans-serif-black"
+        android:paddingStart="120dp"
+        android:paddingTop="20dp"
+        android:text="@string/test_your_eye"
+        android:textAllCaps="true"
+        android:textColor="#263238"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints,RtlSymmetry,TextSizeCheck,VisualLintBounds"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <TextView
+        android:id="@+id/StartGame"
+        android:layout_width="213dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="98dp"
+        android:background="#03A9F4"
+        android:fontFamily="sans-serif-black"
+        android:paddingStart="40dp"
+        android:paddingTop="20dp"
+        android:text="@string/start_game"
+        android:textAllCaps="true"
+        android:textColor="#263238"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TestEye"
+        tools:ignore="MissingConstraints,RtlSymmetry,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/ScoreTable"
+        android:layout_width="214dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="68dp"
+        android:background="#03A9F4"
+        android:fontFamily="sans-serif-black"
+        android:paddingStart="40dp"
+        android:paddingTop="20dp"
+        android:text="@string/score_table"
+        android:textAllCaps="true"
+        android:textColor="#263238"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/StartGame"
+        tools:ignore="MissingConstraints,RtlSymmetry,TextSizeCheck" />
+</android.support.constraint.ConstraintLayout>

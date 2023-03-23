@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".GameOver">
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="356dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/gameover"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/Return"
+        android:layout_width="167dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="392dp"
+        android:background="#F3DB0C"
+        android:text="@string/back_to_menu"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
